@@ -55,8 +55,14 @@ export default function App() {
         </p>
         <div
           style={{ opacity: opacity, backgroundImage: imgs[img] }}
-          className="imgcss mt-8 flex h-96 w-[500px] justify-center rounded-lg border-2 border-gray-700"
-        ></div>
+          className="imgcss mt-8 flex h-[500px] w-4/5 justify-center"
+        >
+          <img
+            src={imgs[img]}
+            alt="demo-img"
+            className=" rounded-lg border-2 border-gray-700"
+          />
+        </div>
       </div>
       <div className="mt-14 flex justify-center gap-8">
         <a
